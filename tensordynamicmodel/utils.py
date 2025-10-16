@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from scipy.linalg import hankel
 
 def delay_embedding_matrix(s, nlags, fit_intercept=False):
     """Make a matrix with delay embeddings.
